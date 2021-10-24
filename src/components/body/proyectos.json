@@ -1,0 +1,60 @@
+{
+    "proyectos":[{
+    "id": 1,
+    "name": "Google",
+    "url": "https://ivoli.github.io/google/",
+    "code": "https://github.com/IvOli/google",
+    "info": "Clon de google con HTML5 Y CSS3",
+    "pic": "https://i.ibb.co/7VVzWY1/google.jpg"
+}, 
+{
+    "id": 2,
+    "name": "Doggo",
+    "url": "https://ivoli.github.io/doggo/",
+    "code": "https://github.com/IvOli/doggo",
+    "info": "Pagina de perritos elaborada con Bootstrap5",
+    "pic": "https://i.ibb.co/yF4wq02/doggo.jpg"
+},
+{
+    "id": 3,
+    "name": "CV",
+    "url": "https://ivoli.github.io/CV/",
+    "code": "https://github.com/IvOli/CV",
+    "info": "CV elaborado con HTML5 Y CSS3",
+    "pic": "https://i.ibb.co/HxK5crG/cv.jpg"
+},
+{
+    "id": 4,
+    "name": "Pinterest",
+    "url": "https://ivoli.github.io/pinterest/",
+    "code": "https://github.com/IvOli/pinterest",
+    "info": "Clon de Pinterest usando CSS Grid",
+    "pic": "https://i.ibb.co/4jwNRkS/pinterest.jpg"
+},
+{
+    "id": 5,
+    "name": "FizzBuzz",
+    "url": "https://ivoli.github.io/fizzbuzz/",
+    "code": "https://github.com/IvOli/fizzbuzz",
+    "info": "Generador de FizzBuzz incluye modo nocturno",
+    "pic": "https://i.ibb.co/BPc6hnc/fizzbuzz.jpg"
+},
+{
+    "id": 5,
+    "name": "Crud",
+    "url": "https://ivoli.github.io/crud-personas/",
+    "code": "https://github.com/IvOli/crud-personas",
+    "info": "CRUD de datos de personas",
+    "pic": "https://i.ibb.co/kKBnmQq/crud.jpg"
+},
+{
+    "id": 6,
+    "name": "Conecta 4",
+    "url": "https://ivoli.github.io/conecta4/",
+    "code": "https://github.com/IvOli/conecta4",
+    "info": "Juego de Conecta 4 con HTML5, CSS3 y JavaScript",
+    "pic": "https://i.ibb.co/Sx1PWT6/conecta4.jpg"
+}
+]
+}
+
