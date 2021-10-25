@@ -2,20 +2,23 @@ import React from "react";
 import Header from "./header/Header"
 import Name from "./body/Name";
 import About from "./body/About";
-import SocialNetworks from "./body/SocialNetworks";
 import Projects from "./body/Projects";
+import FormContact from "./body/FormContact";
+import Footer from "./body/Footer";
 
 function App(){
       return  (
-        <div>
+        <React.Fragment>
             <Header />
             <Name />
             <About />
             <h3 id="projects">Projects</h3>
             <Projects />
-            <SocialNetworks />
+            <FormContact />
+            <Footer />
+
             
-        </div>
+        </React.Fragment>
       );
 }
 
