@@ -59,20 +59,23 @@ function FormContact() {
       {/* <h1>
         Hello {contact.fName} {contact.lName}
       </h1> */}
-      <h3 id="contact">CONTACT</h3>
+      <div id="contact"></div>
+      <h3>CONTACT</h3>
       {/* <p>{contact.email}</p> */}
       <form>
         <input
           onChange={handleChange}
           value={contact.name}
           name="name"
-          placeholder="Enter your name"
+          placeholder="Enter your name *"
+          required
         />
         <input
           onChange={handleChange}
           value={contact.email}
           name="email"
-          placeholder="Enter your email"
+          placeholder="Enter your email *"
+          required
         />
         <input
           onChange={handleChange}
@@ -84,8 +87,10 @@ function FormContact() {
           onChange={handleChange}
           value={contact.message}
           name="message"
-          placeholder="Your message"
-        className="message"/>
+          placeholder="Your message *"
+          className="message"
+          required
+        />
         <button className="submit"  onClick={sendEmail}>Submit</button>
       </form>
       {/* <p>{`Muchas gracias ${contact.name} tu correo a sido enviado`}</p> */}

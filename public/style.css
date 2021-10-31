@@ -58,6 +58,14 @@ header{
 .name-section{
     height: 770px;
 }
+
+.name-section > p{
+    font-weight: 100;
+    font-size: 36px;
+    width: 760px;
+    height: 140px;
+    margin-left: 122px;
+}
 .profile-pic{
     border-radius: 50%;
 }
@@ -71,7 +79,7 @@ h1{
 
 h2{
     font-weight: 300;
-    font-size: 60px;
+    font-size: 36px;
     width: 760px;
     height: 140px;
     margin-left: 122px;
@@ -131,8 +139,8 @@ h4{
 }
 
 .titulo-contexto > p{
-    width: 750px;
-    height: 523px;
+    width: 850px;
+    /* height: 523px; */
     margin-top: 56px;
     font-size: 34px;
     font-weight: 400;
@@ -140,7 +148,9 @@ h4{
 
 .about{
     margin-top: 100px;
+    margin-bottom: 200px;
 }
+
 
 a.button, .submit{
     -webkit-appearance: button;
@@ -173,7 +183,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     border-radius: 10px;
     width: 400px;
     height: 450px;
@@ -221,9 +231,10 @@ a:hover, .submit:hover {
   }
 
   .container {
-    margin: 10% auto;
-    padding: 80px 0;
+    /* margin: 10% auto; */
+    /* padding: 80px 0; */
     text-align: center;
+    margin-bottom: 100px;
   }
   .container > h3 {
       margin-bottom: 60px;
@@ -285,4 +296,9 @@ a:hover, .submit:hover {
 
   footer > p {
       font-size: 12px;
+      height: 100px;
+  }
+
+  #about, #projects, #contact{
+      height: 100px;
   }

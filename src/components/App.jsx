@@ -12,7 +12,8 @@ function App(){
             <Header />
             <Name />
             <About />
-            <h3 id="projects">Projects</h3>
+            <div id="projects"></div>
+            <h3>Projects</h3>
             <Projects />
             <FormContact />
             <Footer />
